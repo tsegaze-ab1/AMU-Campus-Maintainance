@@ -1,0 +1,28 @@
+/* Staff Dashboard presentation styles (moved from inline <style>) */
+.cm-pageTitle { letter-spacing: -0.01em; }
+.cm-sidebar { border: 1px solid rgba(0,0,0,.08); }
+.cm-sidebar .nav-link { border-radius: .75rem; }
+.cm-kpi {
+    border: 1px solid rgba(0,0,0,.08);
+    border-left: .3rem solid var(--cm-accent, var(--bs-secondary));
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+.cm-kpi:hover { transform: translateY(-1px); box-shadow: 0 .5rem 1.25rem rgba(0,0,0,.08); }
+.cm-kpi .cm-kpi-icon {
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .75rem;
+    background: rgba(var(--cm-accent-rgb, 108,117,125), .10);
+    color: var(--cm-accent, var(--bs-secondary));
+}
+.cm-accent-primary { --cm-accent: var(--bs-primary); --cm-accent-rgb: var(--bs-primary-rgb); }
+.cm-accent-warning { --cm-accent: var(--bs-warning); --cm-accent-rgb: var(--bs-warning-rgb); }
+.cm-accent-info { --cm-accent: var(--bs-info); --cm-accent-rgb: var(--bs-info-rgb); }
+.cm-accent-success { --cm-accent: var(--bs-success); --cm-accent-rgb: var(--bs-success-rgb); }
+.cm-soft-warning { background: rgba(var(--bs-warning-rgb), .10); border: 1px solid rgba(0,0,0,.08); }
+.cm-soft-info { background: rgba(var(--bs-info-rgb), .10); border: 1px solid rgba(0,0,0,.08); }
+.cm-soft-success { background: rgba(var(--bs-success-rgb), .10); border: 1px solid rgba(0,0,0,.08); }
+.cm-chartWrap { height: 240px; }
