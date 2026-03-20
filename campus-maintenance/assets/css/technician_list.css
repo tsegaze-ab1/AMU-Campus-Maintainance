@@ -1,0 +1,4 @@
+/* Technician Assigned list page styles (extracted from inline CSS) */
+.cm-kpi { border: 1px solid rgba(0,0,0,.08); }
+.cm-kpi .cm-kpi-icon { width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center; border-radius: .75rem; background: rgba(0,0,0,.04); }
+.cm-table-title { max-width: 520px; }

@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CampusCare | Campus Maintenance Management System</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="CampusCare, maintenance management, university system" name="keywords">
+    <meta content="Smart campus maintenance management system for universities." name="description">
+
+    <link href="images/dashboards/logo.jpg" rel="icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div id="spinner" class="show modern-loader position-fixed w-100 vh-100 top-0 start-0 d-flex align-items-center justify-content-center">
+        <div class="loader-content text-center wow fadeInUp" data-wow-delay="0.1s">
+            <div class="loader-logo"><i class="fa-solid fa-building-shield me-2"></i>CampusCare</div>
+            <p>Loading Campus Maintenance System...</p>
+            <div class="loader-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="site-header">
+        <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark glass-navbar sticky-top py-3">
+            <div class="container">
+                <a href="index.html" class="navbar-brand fw-bold">
+                    <span class="brand-mark"><img src="images/dashboards/logo.jpg" alt="Arbaminch University logo"></span>
+                    <span class="brand-text">
+                        <span class="brand-title">Arbaminch University</span>
+                        <span class="brand-subtitle">Campus Maintenance Office</span>
+                    </span>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto ms-lg-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto">
+                        <a href="#home" class="nav-item nav-link active">Home</a>
+                        <a href="#features" class="nav-item nav-link">Features</a>
+                        <a href="#services" class="nav-item nav-link">Services</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <div class="nav-auth-links d-flex flex-column flex-lg-row gap-2 mt-3 mt-lg-0">
+                        <a href="login.php" class="auth-link"><i class="fa-solid fa-right-to-bracket me-2"></i>Login</a>
+                        <a href="register.php" class="auth-link"><i class="fa-solid fa-user-plus me-2"></i>Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero-section position-relative overflow-hidden">
+        <canvas id="hero-tentacle-canvas"></canvas>
+        <div class="hero-shape shape-1"></div>
+        <div class="hero-shape shape-2"></div>
+        <div class="hero-shape shape-3"></div>
+        <div class="container py-5">
+            <div class="row align-items-center g-5 min-vh-100 py-4">
+                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                    <span class="hero-tag mb-3 d-inline-block"> Real University Facility Solution</span>
+                    <h1 class="hero-title mb-3">Campus Maintainance System</h1>
+                    <p class="hero-text mb-0">Manage university repair requests, track technicians, and monitor campus facilities in one powerful role-based system designed for students, technicians, and administrators with separate dashboards.</p>
+                </div>
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="hero-media-wrap">
+                        <div class="hero-main-media glass-card">
+                            <img src="images/dashboards/building.png" alt="CampusCare building preview" class="img-fluid rounded-4" fetchpriority="high" decoding="async">
+                        </div>
+                        <div class="hero-float-card card-a glass-card">
+                            <img src="images/fire maintainance 3.jpg" alt="Campus maintenance activity" class="img-fluid rounded-4">
+                        </div>
+                        <div class="hero-float-card card-b glass-card">
+                            <img src="images/dashboards/p11.jpg" alt="Arbaminch University campus view" class="img-fluid rounded-4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats-section py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="stat-card">
+                        <h2>500+</h2>
+                        <p>Requests Managed</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="stat-card">
+                        <h2>50+</h2>
+                        <p>Buildings Covered</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="stat-card">
+                        <h2>20+</h2>
+                        <p>Technicians</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="stat-card">
+                        <h2>100%</h2>
+                        <p>Organized System</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about-modern py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <h5 class="section-mini">About Platform</h5>
+                <h2 class="section-title">Why this system?</h2>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12 wow fadeInUp" data-wow-delay="0.15s">
+                    <div class="about-story-card">
+                        <p>The Campus Maintenance Management System is a web-based platform designed to help universities manage maintenance activities in a modern and organized way.</p>
+                        <p>In large campuses, many problems such as electrical failures, water issues, classroom damage, and equipment repair requests occur frequently. In traditional systems, these problems are reported manually using paper forms or verbal communication, which often leads to delays, lost requests, and poor coordination between departments.</p>
+                        <p>This system provides a centralized digital solution where students, teachers, and staff can submit maintenance requests online through a simple interface. Once a request is submitted, the administrator can review the problem, assign the appropriate technician, and monitor the repair progress in real time.</p>
+                        <p>Technicians can update the status of their work, and users can track their request without needing to visit the maintenance office. All requests are stored in the system, making the process more organized, transparent, and efficient.</p>
+                        <p class="mb-0">By using this system, the university can reduce response time, improve communication, and maintain campus facilities in a more reliable and professional way.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="about-icon-card">
+                        <div class="icon-wrap"><i class="fa-solid fa-file-circle-plus"></i></div>
+                        <h5>Easy Requests</h5>
+                        <p>Submit maintenance issues quickly with location, type, and priority details.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="about-icon-card">
+                        <div class="icon-wrap"><i class="fa-solid fa-user-shield"></i></div>
+                        <h5>Admin Control</h5>
+                        <p>Admin dashboard centralizes assignments, approvals, and service history.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="about-icon-card">
+                        <div class="icon-wrap"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <h5>Smart Repair Flow</h5>
+                        <p>Technicians receive tasks instantly and update work from start to completion.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="about-icon-card">
+                        <div class="icon-wrap"><i class="fa-solid fa-chart-line"></i></div>
+                        <h5>Live Tracking</h5>
+                        <p>Track every request with transparent progress and status notifications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="features-grid-section py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <h5 class="section-mini">Core Features</h5>
+                <h2 class="section-title">One Platform with Role-Based Dashboards</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="feature-card">
+                        <i class="fa-solid fa-clipboard-list"></i>
+                        <h5>Online Request</h5>
+                        <p>Students and staff can report maintenance issues from any device.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="feature-card">
+                        <i class="fa-solid fa-gauge-high"></i>
+                        <h5>Admin Dashboard</h5>
+                        <p>Central panel for approvals, task assignment, and performance overview.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="feature-card">
+                        <i class="fa-solid fa-users-gear"></i>
+                        <h5>Technician Panel</h5>
+                        <p>Field teams get assigned work orders and update statuses in real time.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="feature-card">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                        <h5>Real-Time Status</h5>
+                        <p>Users follow every stage from submitted to completed with timestamps.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="feature-card">
+                        <i class="fa-solid fa-lock"></i>
+                        <h5>Secure Login</h5>
+                        <p>Role-based access keeps student, technician, and admin data protected.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="feature-card">
+                        <i class="fa-solid fa-bolt"></i>
+                        <h5>Fast UI</h5>
+                        <p>A clean and responsive experience designed for campus workflows.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services-modern py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <h5 class="section-mini">Maintenance Services</h5>
+                <h2 class="section-title">Service Modules for Real Campus Needs</h2>
+            </div>
+
+            <div class="service-zig service-zig-left wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row align-items-center g-4">
+                    <div class="col-md-5">
+                        <img src="images/fire maintainance.jpg" alt="Electrical maintenance" class="img-fluid service-photo">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="service-glass-card">
+                            <h4>Electrical Maintenance</h4>
+                            <p>Monitor and resolve wiring, lighting, and power-related incidents across campus facilities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-zig service-zig-right wow fadeInUp" data-wow-delay="0.2s">
+                <div class="row align-items-center g-4">
+                    <div class="col-md-7 order-md-1">
+                        <div class="service-glass-card text-md-end">
+                            <h4>Water pump Maintenance</h4>
+                            <p>Manage leaks, plumbing issues, and water distribution for dormitories and labs.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 order-md-2 text-md-end">
+                        <img src="images/water maintainance.jpg" alt="Water maintenance" class="img-fluid service-photo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-zig service-zig-left wow fadeInUp" data-wow-delay="0.3s">
+                <div class="row align-items-center g-4">
+                    <div class="col-md-5">
+                        <img src="images/door maintainance.jpg" alt="Door repair" class="img-fluid service-photo">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="service-glass-card">
+                            <h4>Door Repair</h4>
+                            <p>Track lock replacements, broken door fixes, and classroom access hardware services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-zig service-zig-right wow fadeInUp" data-wow-delay="0.4s">
+                <div class="row align-items-center g-4">
+                    <div class="col-md-7 order-md-1">
+                        <div class="service-glass-card text-md-end">
+                            <h4>Computer Lab Fix</h4>
+                            <p>Handle equipment, network, and hardware support for computing spaces and labs.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 order-md-2 text-md-end">
+                        <img src="images/compuer.jpg" alt="Computer lab fix" class="img-fluid service-photo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-zig service-zig-left wow fadeInUp" data-wow-delay="0.5s">
+                <div class="row align-items-center g-4">
+                    <div class="col-md-5">
+                        <img src="images/door maintainance1.jpg" alt="Dorm-room maintenance" class="img-fluid service-photo">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="service-glass-card">
+                            <h4>Dorm-room Maintenance</h4>
+                            <p>Keep student rooms safe and functional with quick response to facility-related issues.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- System Screenshots -->
+    <section id="screenshots" class="screenshots-section py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <h5 class="section-mini">System Preview</h5>
+                <h2 class="section-title">Dashboard and Workflow Screenshots</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="shot-card">
+                        <img src="images/dashboards/Admin Dashboard.jpg" alt="Admin dashboard screenshot" class="img-fluid rounded-4">
+                        <h6 class="mt-3 mb-0">Admin Dashboard</h6>
+                        <p class="mt-2 mb-0">Monitor requests, assign technicians, and control priorities from one panel.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="shot-card">
+                        <img src="images/dashboards/Student Dashboard.jpg" alt="Student dashboard screenshot" class="img-fluid rounded-4">
+                        <h6 class="mt-3 mb-0">Student Dashboard</h6>
+                        <p class="mt-2 mb-0">Submit issues, track repair progress, and receive live status updates.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="shot-card">
+                        <img src="images/dashboards/Technician Dashboard.jpg" alt="Technician dashboard screenshot" class="img-fluid rounded-4">
+                        <h6 class="mt-3 mb-0">Technician Dashboard</h6>
+                        <p class="mt-2 mb-0">Handle assigned tasks, update service stages, and close completed jobs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery-modern py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <h5 class="section-mini">Campus Gallery</h5>
+                <h2 class="section-title">University Facilities and Maintenance Work</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <a href="images/dashboards/campuslok.jpg" data-lightbox="campus-gallery" data-title="Campus Buildings" class="gallery-card d-block">
+                        <img src="images/dashboards/campuslok.jpg" alt="Campus Buildings" class="img-fluid">
+                        <span>Campus Buildings</span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <a href="images/fire maintainance 3.jpg" data-lightbox="campus-gallery" data-title="Maintenance Work" class="gallery-card d-block">
+                        <img src="images/fire maintainance 3.jpg" alt="Maintenance Work" class="img-fluid">
+                        <span>Maintenance Work</span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="images/emergency.jpg" data-lightbox="campus-gallery" data-title="Technicians" class="gallery-card d-block">
+                        <img src="images/emergency.jpg" alt="Technicians" class="img-fluid">
+                        <span>Technicians</span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <a href="images/mainrr.png" data-lightbox="campus-gallery" data-title="University Facilities" class="gallery-card d-block">
+                        <img src="images/mainrr.png" alt="University Facilities" class="img-fluid">
+                        <span>University Facilities</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-modern py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <h5 class="section-mini">Testimonials</h5>
+                <h2 class="section-title">What Campus Users Say</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-card-modern">
+                        <div class="avatar">US</div>
+                        <p>"This system makes maintenance requests easy and clear for all departments."</p>
+                        <h6>University Staff</h6>
+                        <span>Facility Office</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="testimonial-card-modern">
+                        <div class="avatar">TC</div>
+                        <p>"Very simple to manage tasks. I can update repairs directly from my workflow screen."</p>
+                        <h6>Technician</h6>
+                        <span>Maintenance Team</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="testimonial-card-modern">
+                        <div class="avatar">ST</div>
+                        <p>"Fast response whenever we report classroom problems. The tracking is really helpful."</p>
+                        <h6>Student</h6>
+                        <span>Campus User</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-modern py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <h5 class="section-mini">Contact Us</h5>
+                <h2 class="section-title">Connect with Campus Maintenance Office</h2>
+            </div>
+            <div class="row g-4 align-items-stretch contact-grid">
+                <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.1s">
+                    <div class="contact-panel h-100">
+                        <div class="ratio ratio-4x3 rounded-4 overflow-hidden mb-4">
+                            <iframe src="https://maps.google.com/maps?q=Arbaminch%20University%20Main%20Campus%20Maintainance%20office&t=&z=15&ie=UTF8&iwloc=&output=embed" title="CampusCare location map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="contact-meta">
+                            <p><i class="fa-solid fa-location-dot me-2"></i>Arbaminch University Main Campus Maintainance office</p>
+                            <p><i class="fa-solid fa-phone me-2"></i>0468810772</p>
+                            <p class="mb-0"><i class="fa-solid fa-envelope me-2"></i>www.amu.edu.et</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="contact-panel h-100">
+                        <form class="contact-form-modern">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Full Name">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" placeholder="University Email">
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" class="form-control" placeholder="Subject">
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control" rows="5" placeholder="Describe your issue"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-contact-submit w-100" type="button">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-modern pt-5 pb-4">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h4><i class="fa-solid fa-building-shield me-2"></i>CampusCare System</h4>
+                    <p>Campus Maintenance Management System built as a university project.</p>
+                    <div class="social-list d-flex gap-2">
+                        <a href="#" class="social-link"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <h5>Links</h5>
+                    <ul class="footer-links list-unstyled">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="login.php">Login</a></li>
+                        <li><a href="register.php">Sign up</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <h5>Developer</h5>
+                    <p class="mb-1">Developed by Tsegaab Kasaye</p>
+                    <p class="mb-0">Software Engineering Student</p>
+                </div>
+            </div>
+            <hr>
+            <p class="mb-0 text-center">&copy; 2026 CampusCare. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="btn btn-outline-primary border-2 btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

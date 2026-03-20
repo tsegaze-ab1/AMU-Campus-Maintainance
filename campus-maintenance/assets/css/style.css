@@ -1,0 +1,7 @@
+/* assets/css/style.css
+   Shared, hosting-friendly stylesheet entrypoint.
+   Keep page-specific styles in assets/css/*.css as you already have.
+*/
+
+/* Example: global tweaks can live here */
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
