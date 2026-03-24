@@ -3,7 +3,7 @@
 
 
 
-rs receive direct feedback through alerts, status labels, and timeline comments.
+
 
 Dashboard Overview
 Student Dashboard
