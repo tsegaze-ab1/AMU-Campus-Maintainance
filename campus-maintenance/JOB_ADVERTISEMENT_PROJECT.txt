@@ -3,8 +3,7 @@
 
 
 
-6. Continuous feedback
-Users receive direct feedback through alerts, status labels, and timeline comments.
+rs receive direct feedback through alerts, status labels, and timeline comments.
 
 Dashboard Overview
 Student Dashboard
