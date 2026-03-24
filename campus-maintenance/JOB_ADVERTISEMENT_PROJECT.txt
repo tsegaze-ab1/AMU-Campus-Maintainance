@@ -1,7 +1,7 @@
 
 
 
-Tables, progress bars, and charts make workload and outcomes easy to scan and understand.
+
 
 6. Continuous feedback
 Users receive direct feedback through alerts, status labels, and timeline comments.
