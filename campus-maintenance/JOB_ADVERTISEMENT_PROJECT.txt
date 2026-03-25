@@ -7,7 +7,7 @@
 
 
 
-- Includes status distribution chart and quick lin
+-istribution chart and quick lin
 Technician Dashboard
 - Displays assigned workload and completion metrics.
 - Highlights pending, in-progress, and completed assignments.
