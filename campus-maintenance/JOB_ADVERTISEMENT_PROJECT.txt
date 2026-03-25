@@ -6,7 +6,7 @@
 
 
 
-- Shows recent requests with priority and status.
+
 - Includes status distribution chart and quick links to create/view requests.
 
 Technician Dashboard
