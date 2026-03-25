@@ -5,8 +5,7 @@
 
 
 
-Student Dashboard
-- Tracks personal request counts and completion percentage.
+
 - Shows recent requests with priority and status.
 - Includes status distribution chart and quick links to create/view requests.
 
