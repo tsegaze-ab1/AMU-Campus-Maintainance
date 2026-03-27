@@ -7,10 +7,6 @@
 
 
 
--istribution chart and quick lin
-Technician Dashboard
-- Displays assigned workload and completion metrics.
-- Highlights pending, in-progress, and completed assignments.
 - Provides quick access to request view/update actions.
 
 Admin Dashboard
