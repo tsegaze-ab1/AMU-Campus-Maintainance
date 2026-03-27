@@ -7,7 +7,6 @@
 
 
 
-- Provides quick access to request view/update actions.
 
 Admin Dashboard
 - Presents user distribution by role (students, technicians, admins).
