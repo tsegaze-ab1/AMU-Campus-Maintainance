@@ -1,6 +1,6 @@
 
 
-Folder: infinityfree-dep
+
 Upload target on InfinityFree: /htdocs/ (public_html)
 
 1) Upload all files and folders from this package to your InfinityFree htdocs directory.
