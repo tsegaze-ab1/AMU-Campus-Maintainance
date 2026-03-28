@@ -1,4 +1,4 @@
-INFINITYF
+
 
 Folder: infinityfree-deployment-ready
 Upload target on InfinityFree: /htdocs/ (public_html)
