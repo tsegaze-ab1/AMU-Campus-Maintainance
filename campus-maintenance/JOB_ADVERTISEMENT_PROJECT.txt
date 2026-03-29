@@ -1,9 +1,4 @@
 
-
-
-
-
-- Includes charts for request status and role distribution.
 - Enables access to request management, category management, and user management.
 
 Technical Scope
