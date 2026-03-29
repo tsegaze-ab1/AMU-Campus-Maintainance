@@ -1,5 +1,4 @@
 
-- Enables access to request management, category management, and user management.
 
 Technical Scope
 - PHP (server-side logic and role control)
