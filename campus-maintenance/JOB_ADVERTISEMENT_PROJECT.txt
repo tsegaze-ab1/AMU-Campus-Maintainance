@@ -9,7 +9,7 @@
 
 
 
-- Presents user distribution by role (students, technicians, admins).
+
 - Shows overall request pipeline and completion percentage.
 - Includes charts for request status and role distribution.
 - Enables access to request management, category management, and user management.
