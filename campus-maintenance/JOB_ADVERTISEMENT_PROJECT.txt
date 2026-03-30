@@ -1,6 +1,6 @@
 
 
-Technical Scope
+
 - PHP (server-side logic and role control)
 - MySQL (users, categories, requests, comments, attachments schema)
 - Bootstrap (responsive interface)
