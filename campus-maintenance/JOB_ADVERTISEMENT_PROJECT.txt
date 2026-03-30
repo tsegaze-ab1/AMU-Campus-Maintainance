@@ -1,12 +1,5 @@
 
 
-
-- PHP (server-side logic and role control)
-- MySQL (users, categories, requests, comments, attachments schema)
-- Bootstrap (responsive interface)
-- Chart.js (dashboard analytics)
-- CSRF protection and input validation in core request workflows
-
 Software Engineering Value (For Recruiters)
 This project demonstrates my ability, as an entry-level software engineer, to:
 - Design and build a complete role-based web application.
