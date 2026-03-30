@@ -1,5 +1,5 @@
 
- Engineering Value (For Recruiters)
+software Engineering Value (For Recruiters)
 This project demonstrates my ability, as an entry-level software engineer, to:
 - Design and build a complete role-based web application.
 - Translate a real institutional pain point into a practical digital solution.
