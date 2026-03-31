@@ -1,5 +1,5 @@
 
-- Design and
+
 - Translate a real institutional pain point into a practical digital solution.
 - Implement secure authentication and authorization flows.
 - Build maintainable CRUD and workflow features with validation.
