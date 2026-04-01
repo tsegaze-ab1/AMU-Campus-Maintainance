@@ -1,8 +1,5 @@
 
 
-
-Upload target on
-
 1) Upload all files and folders from this package to your InfinityFree htdocs directory.
 2) In phpMyAdmin (InfinityFree), create/import the database using schema.sql.
 3) Edit config/db.host.php with your InfinityFree MySQL details:
