@@ -1,7 +1,7 @@
 
 
 
-Upload target on InfinityFree: /htdocs/ (public_h
+Upload target on
 
 1) Upload all files and folders from this package to your InfinityFree htdocs directory.
 2) In phpMyAdmin (InfinityFree), create/import the database using schema.sql.
