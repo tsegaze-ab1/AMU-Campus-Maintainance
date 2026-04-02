@@ -1,4 +1,4 @@
- secure authentication and authorization flows.
+authentication and authorization flows.
 - Build maintainable CRUD and workflow features with validation.
 - Deliver meaningful UI/UX for operational users.
 - Integrate analytics and monitoring into product decision flow.
