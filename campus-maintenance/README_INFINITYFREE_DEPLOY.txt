@@ -1,4 +1,4 @@
-his package to your InfinityFree htdocs directory.
+his package to your I directory.
 2) In phpMyAdmin (InfinityFree), create/import the database using schema.sql.
 3) Edit config/db.host.php with your InfinityFree MySQL details:
    - host
