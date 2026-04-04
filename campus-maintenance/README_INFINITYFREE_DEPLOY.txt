@@ -1,4 +1,4 @@
-ttuuugffghj
+ttuu
 2) In phpMyAdmin (InfinityFree), create/import the database using schema.sql.
 3) Edit config/db.host.php with your InfinityFree MySQL details:
    - host
